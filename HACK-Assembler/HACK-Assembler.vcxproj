@@ -152,6 +152,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HACK-Assembler.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="SymbolTable.cpp" />
+    <ClCompile Include="Translator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="SymbolTable.h" />
+    <ClInclude Include="Translator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\HACK-Computer\projects\06\pong\Pong.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
